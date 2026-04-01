@@ -10,7 +10,7 @@ import GoogleGenerativeAI
 
 struct ContentView: View {
     
-    let model = GenerativeModel(name: "gemini-2.5-flash", apiKey: "AIzaSyDuhbddXMC2OCVYK-6YDgWWARBEApHykT8")
+    let model = GenerativeModel(name: "gemini-2.5-flash", apiKey: "GEMINI_API_KEY")
     
     @State private var chat: Chat?
     @State private var textInput = ""
